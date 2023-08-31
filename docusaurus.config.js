@@ -18,8 +18,12 @@ const docusaurusConfig = {
   deploymentBranch: 'gh-pages',
   favicon: "img/favicon.ico",
   trailingSlash: false,
-  // TODO: remove this once ready
-  onBrokenLinks: "log",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: 'warn',
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en']
+  },
   themeConfig: {
     prism: {
       theme: require("prism-react-renderer/themes/nightOwl"),
@@ -122,7 +126,7 @@ const docusaurusConfig = {
           ],
         },
       ],
-      copyright: `Copyright &copy; NearForm ${new Date().getFullYear()}`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nearform.`
     },
     colorMode: {
       respectPrefersColorScheme: true,
