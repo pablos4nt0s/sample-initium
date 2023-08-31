@@ -11,7 +11,7 @@ const docusaurusConfig = {
   themes: ["@docusaurus/theme-mermaid"],
   title: "Initium",
   tagline: "Get your code deployed on day zero.",
-  url: "pablos4nt0s.github.io",
+  url: "https://pablos4nt0s.github.io",
   baseUrl: "/sample-initium/",
   projectName: "sample-initium",
   organizationName: "pablos4nt0s",
