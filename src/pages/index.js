@@ -92,7 +92,7 @@ export default function Home() {
           <div className="container">
             <div className="hero-inner">
               <img
-                src="/img/logo/logo-sm.webp"
+                src="img/logo/logo-sm.webp"
                 alt="initium logo"
                 className={styles.heroLogo}
                 height="142"
